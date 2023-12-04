@@ -14,7 +14,9 @@ public abstract class Animal {
                 ", age=" + age +
                 '}';
     }
-
+    public void makeSound(){
+        System.out.println("I am animal");
+    }
     public String getName() {
         return name;
     }
